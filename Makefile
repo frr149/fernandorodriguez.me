@@ -4,6 +4,7 @@ GCP_OUPUT_DIR = fernando@nginx:/var/www/fernandorodriguez.me/
 
 # Static site Generator
 SCP = hugo
+OUTPUTDIR = public
 
 
 help:
@@ -21,4 +22,21 @@ help:
 
 html:
 	$(SCP)
-	
+
+clean:
+	@rm -rf $(OUTPUTDIR)
+
+serve:
+	@$(SCP) server -D
+
+upload: 
+	$(GCP_SCP)  $(OUTPUTDIR)  $(GCP_OUPUT_DIR)   --recurse --compress
+
+ssh:
+	@echo 'The files are located in /var/www/fernandorodriguez.me'
+	@echo 'Type exit to leave'
+	@gcloud compute ssh  nginx
+
+all: clean html upload
+
+.PHONY: html clean serve upload
