@@ -2,7 +2,7 @@ baseurl = "https://fernandorodriguez.me" # Controls base URL sitewide
 languageCode = "en-US" # Controls site language
 title = "Fernando Rodríguez" # Homepage title and page title suffix
 paginate = 11 # Number of posts to show before paginating
-copyright = "Copyright &copy; Copyright Owner. "
+copyright = "Copyright &copy; Fernando Rodríguez. "
 
 
 
@@ -42,3 +42,20 @@ sectionPagesMenu = "main" # Enable menu system for lazy bloggers
 [params.modules.fractal_forest]
   enabled = true # Optional, set false to disable module
   decoders = ["bpgdec8a"] # Optional, 8-bit javascript decoder with animation
+
+# Custom homepage
+[params.layout.home]
+  hide_blog = true
+
+[[params.layout.home.section]]
+  type = "about"
+  weight = 2
+
+[[params.layout.home.section]]
+  type = "post"
+  limit = 6
+  weight = 1
+
+[[params.layout.home.section]]
+  type = "contact"
+  weight = 3
