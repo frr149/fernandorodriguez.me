@@ -4,6 +4,8 @@ title = "Fernando Rodríguez" # Homepage title and page title suffix
 paginate = 11 # Number of posts to show before paginating
 copyright = "Copyright &copy; Copyright Owner. "
 
+
+
 # Controls default theme and theme components
 theme = [
   "fractal-forest", # OBSD
