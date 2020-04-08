@@ -1,10 +1,10 @@
 # GCP
 GCP_SCP = gcloud compute scp
-GCP_OUPUT_DIR = fernando@nginx:/var/www/fernandorodriguez.me/
+GCP_OUPUT_DIR = fernando@nginx:/var/www/fernandorodriguez.me/html
 
 # Static site Generator
 SCP = hugo
-OUTPUTDIR = public
+OUTPUTDIR = public/
 
 
 help:
