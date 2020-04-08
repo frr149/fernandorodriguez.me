@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 date = 2020-04-08T00:14:02+02:00
-description = "Please fin dmy contact information below."
+description = "Please find my contact information below."
 draft = true
 [[copyright]]
   owner = "Fernando Rodríguez"
