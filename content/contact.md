@@ -2,7 +2,7 @@
 title = "Contact"
 date = 2020-04-08T00:14:02+02:00
 description = "Please find my contact information below."
-draft = true
+draft = false
 [[copyright]]
   owner = "Fernando Rodríguez"
   date = "2020"

@@ -2,7 +2,7 @@
 title = "About Blog"
 date = 2020-04-08T00:03:00+02:00
 description = "Tech Stack"
-draft = true
+draft = false
 toc = false
 categories = ["meta"]
 images = [
