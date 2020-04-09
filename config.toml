@@ -33,3 +33,4 @@ disqusShortname = "" # Optional, add Disqus shortname for comments
   images = [] # Suggested, controls default OpenGraph images controls author name display on meta tag
   github  = "frr149" # Optional, to display link to github account in menu bar
   twitter = "frr149" # Optional, to display link to twitter account in menu bar
+  linkedin = "frr149"
