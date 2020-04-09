@@ -24,7 +24,7 @@ disqusShortname = "" # Optional, add Disqus shortname for comments
   name = "About"
   weight = 2
 	identifier = "about"
-  url = "/about/"
+  url = "/post/about/"
 
 [params]
   author = "Fernando Rodríguez"

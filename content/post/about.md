@@ -1,15 +1,11 @@
 +++
-title = "About"
+title = "Fernando Rodríguez"
 date = 2020-04-07T22:51:49+02:00
 description = "Senior software architect, dev & trainer with 20+ yrs experience. Guinness World record holder"
 draft = false
-[[copyright]]
-  owner = "Fernando Rodríguez"
-  date = "2020"
-  license = "cc-by-nd-4.0"
 +++
 
-
+{{< figure src="/img/keepcoding-guinness-record.jpg" title="World Guinness Record for Biggest Software Lesson" >}}
 
 ## Software Developer
 
@@ -25,7 +21,7 @@ Created the methodology, selected the instructors, trained them and supervised t
 * Big Data & Machine Learning, 
 * Devops 
 * Infosec
-* and Blockchain. 
+* Blockchain. 
 
 #### Metrics
 
