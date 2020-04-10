@@ -1,10 +1,10 @@
 # GCP
 GCP_SCP = gcloud compute scp
-GCP_OUPUT_DIR = fernando@nginx:/var/www/fernandorodriguez.me/html
+GCP_OUPUT_DIR = fernando@nginx:/var/www/frr.dev/html
 
 # Static site Generator
 SCP = hugo
-OUTPUTDIR = public/
+OUTPUTDIR = public/*
 
 
 help:
@@ -33,7 +33,7 @@ upload:
 	$(GCP_SCP)  $(OUTPUTDIR)  $(GCP_OUPUT_DIR)   --recurse --compress
 
 ssh:
-	@echo 'The files are located in /var/www/fernandorodriguez.me'
+	@echo 'The files are located in /var/www/frr.dev'
 	@echo 'Type exit to leave'
 	@gcloud compute ssh  nginx
 
