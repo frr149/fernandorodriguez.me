@@ -2,7 +2,7 @@
 title = "A Brief And Painful History Of Programming"
 date = 2020-04-10T12:11:26+02:00
 description = "A surprising amount of ideas are forgotten and rediscovered. Over and over."
-draft = true
+draft = false
 categories = ["Programming"]
 tags = ["fsharp", "snobol"]
 +++
